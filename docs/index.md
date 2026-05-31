@@ -2,8 +2,8 @@
 
 ## Editable AWS Diagram
 
-<img src="docs/aws-diagram.drawio" alt="AWS architecture diagram" style="max-width:100%;" />
+<img src="aws-diagram.drawio" alt="AWS architecture diagram" page="Page-1" style="max-width:100%;" />
 
 > This diagram is rendered by the `mkdocs-drawio` plugin and opens in the draw.io editor when clicked.
 
-![](docs/aws-diagram.drawio)
+![](aws-diagram.drawio)
