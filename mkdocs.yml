@@ -6,3 +6,5 @@ plugins:
       edit: true
       toolbar:
         show_title: true
+extra_css:
+  - css/drawio-fix.css

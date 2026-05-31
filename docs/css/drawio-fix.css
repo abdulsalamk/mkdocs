@@ -1,0 +1,9 @@
+/* Hide broken drawio image placeholders and show the link/title instead */
+img[src$=".drawio"], img[src$=".drawio.svg"], img[src$=".drawio.png"] {
+  display: none !important;
+}
+
+.drawio-link {
+  display: inline-block;
+  margin: 0.5rem 0;
+}
