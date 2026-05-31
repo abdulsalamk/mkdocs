@@ -25,6 +25,11 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Install draw.io (attempt via apt/snap)
+        run: |
+          sudo apt-get update || true
+          sudo apt-get install -y drawio || sudo snap install drawio || true
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
