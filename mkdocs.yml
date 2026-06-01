@@ -1,8 +1,10 @@
 site_name: MkDocs DrawIO Demo
+site_dir : site/
 
 plugins:
-  - search
-  - drawio:
+  - drawio-exporter:
+      format: svg  # or png
+      cache_dir: 'drawio-exporter'
       edit: true
       toolbar:
         show_title: true
