@@ -1,5 +1,8 @@
 site_name: MkDocs DrawIO Demo
-site_dir : site/
+site_dir: site/
+site_url: https://abdulsalamk.github.io/mkdocs/
+repo_url: https://github.com/abdulsalamk/mkdocs
+edit_uri: edit/main/docs/
 
 plugins:
   - drawio-exporter:
