@@ -1,15 +1,17 @@
 site_name: MkDocs DrawIO Demo
 site_dir: site/
+docs_dir: docs
 site_url: https://abdulsalamk.github.io/mkdocs/
 repo_url: https://github.com/abdulsalamk/mkdocs
 edit_uri: edit/main/docs/
+use_directory_urls: true
+
+nav:
+  - Home: index.md
 
 plugins:
-  - drawio-exporter:
-      format: svg  # or png
-      cache_dir: 'drawio-exporter'
-      edit: true
-      toolbar:
-        show_title: true
+  - search
+  - drawio
+
 extra_css:
   - css/drawio-fix.css
